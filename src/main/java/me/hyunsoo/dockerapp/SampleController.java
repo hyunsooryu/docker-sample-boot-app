@@ -12,7 +12,7 @@ public class SampleController {
     @GetMapping("/")
     public Map<String, String> sample(){
         Map<String,String> tmp =  new HashMap<>();
-        tmp.put("A","B");
+        tmp.put("HELLO","WORLD");
         return tmp;
     }
 }

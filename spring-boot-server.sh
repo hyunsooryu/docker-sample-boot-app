@@ -1,3 +1,7 @@
+git clone https://github.com/hyunsooryu/docker-sample-boot-app.git
+
+cd docker-sample-boot-app
+
 # build
 mvn clean package -DskipTests
 # run
